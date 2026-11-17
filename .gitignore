@@ -6,7 +6,9 @@ node_modules/
 # Expo
 .expo/
 dist/
+dist-step5/
 web-build/
+.preview-dashboard/
 expo-env.d.ts
 
 # Native
@@ -41,3 +43,10 @@ example
 # generated native folders
 /ios
 /android
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local test captures and reports
+/artifacts/
